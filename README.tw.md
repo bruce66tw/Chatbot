@@ -16,7 +16,7 @@
 
 ### 操作畫面
 
-![聊天畫面](https://github.com/bruce66tw/Chatbot/images/chat.png)
+![聊天畫面](https://github.com/bruce66tw/Chatbot/blob/master/images/chat.png)
 如上圖, 進入系統後, 聊天畫面位於螢幕右下方, 同時立即顯示一則歡迎的訊息, 使用者在下方的文字框輸入問題後按下Enter, 這時畫面上會多出2則訊息: 一是灰色的使用者問題, 另一個則為綠色的系統回覆訊息。另外, 你可以從聊天畫面輸入以下3個控制指令:
 1.cmd:init : 重新對系統做初始化, 如果你修改系統的回覆資料, 這個指令可以重新載入這些資料。
 2.cmd:check : 檢查是否有重覆的主題資料。
