@@ -1,0 +1,44 @@
+﻿@using Base.Services
+
+<link href="/Content/index.css" rel="stylesheet">
+
+@section scripts {
+    <script src="~/Scripts/view/index.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            _me.init();
+        });
+    </script>
+}
+
+<div class="xu-body">
+</div>
+
+<div class="xu-msg-panel">
+    <div class="xu-msg-header">
+        @_Config.GetStr("ChatTitle")
+    </div>
+    <div class="xu-msgs-box">
+        <div class="xu-msgs">
+            @Html.Raw(ViewBag.FirstMsg)
+            @*
+            <div class="xu-my-msg">
+                <div>
+                    <p>user msg</p>
+                    <span class="xu-dt">11:01</span>
+                </div>
+            </div>
+            <div class="xu-robot-msg">
+                <div>
+                    <p>robot msg</p>
+                    <span class="xu-dt">11:01</span>
+                </div>
+            </div>
+            *@
+        </div>
+    </div>
+
+    <div class="xu-msg-footer">
+        <input type="text" id="myQ" onkeypress="_me.onKeyPressQ(event)" placeholder="@_Config.GetStr("InputHint")" />
+    </div>
+</div>

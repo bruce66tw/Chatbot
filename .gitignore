@@ -1,0 +1,6 @@
+bin/
+obj/
+log/
+packages/
+*.rar
+old/

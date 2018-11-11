@@ -1,0 +1,25 @@
+﻿@using Base.Services
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@_Config.GetStr("SystemName")</title>
+
+    @Styles.Render("~/css1")
+    @*Styles.Render("~/css2")*@
+    @RenderSection("styles", required: false)
+
+</head>
+<body>
+    @Scripts.Render("~/js1")
+    @Scripts.Render("~/js2")
+
+    @RenderSection("scripts", required: false)
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+</body>
+</html>
