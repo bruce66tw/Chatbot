@@ -4,3 +4,4 @@ log/
 packages/
 *.rar
 old/
+.vs/

@@ -16,7 +16,7 @@ Chatbot is a web system, it includes two projects, first is [Base](https://githu
 
 ### Operation
 
-![Chatbot form](https://github.com/bruce66tw/Chatbot/blob/master/images/chat_eng.png)
+![Chatbot form](https://github.com/bruce66tw/Chatbot/blob/master/images/chat_eng.png)<br>
 The chatbot form is at right-down of the screen, when you enter, it will show one welcome message. You can input your question in the text field at the bottom and press Enter key, then chatbot form will get two extra information, one is your question in gray color, another one is chatbot response message in green color. Additional, this chatbot also accept below three command:
 1.cmd:init : re-initial system. After you modify any response message, you can execute the command for reload these message.
 2.cmd:check : check chatbot whether has any duplicated topic.
